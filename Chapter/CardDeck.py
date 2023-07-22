@@ -13,7 +13,6 @@ class FrenchDeck:
         
     def __len__(self):
 
-
     def __getitem__(self, position):
         return self._cards[position]
 

@@ -12,7 +12,6 @@ class FrenchDeck:
                                         for rank in self.ranks]
         
     def __len__(self):
-
     def __getitem__(self, position):
         return self._cards[position]
 
